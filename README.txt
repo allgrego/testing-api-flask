@@ -3,13 +3,12 @@ Pip Dependencies:
 - sklearn
 - numpy
 
-Recomendación: Usar virtual environment
-
+Recommendation: Use virtual environment
 
 To initiate dev server:
 > set FLASK_APP=app
+> set FLASK_ENV=development
 > python app.py
-
 
 example routes:
     With No ML model Routes: 
